@@ -9,35 +9,31 @@ This project aims to classify plant leaves as healthy or diseased. By identifyin
 
 ---
 
+---
+
 ## 🚀 Features
-- 🌿 Detects multiple types of plant leaf diseases
-- 🧠 Powered by Machine Learning / Deep Learning
-- 📷 Image-based input
-- 📈 High model accuracy
-- 🌐 (Optional) Web application integration
+
+- Image Classification using CNN
+- Trained on multiple plant leaf diseases
+- End-to-End Pipeline (Training ➔ Testing ➔ Deployment)
+- Ready for integration into a web or mobile app
 
 ---
 
-## 🛠️ Technologies Used
-- Python
-- TensorFlow / Keras
-- OpenCV
-- NumPy, Pandas
-- Matplotlib, Seaborn
-- Flask (if building a web app)
+## 🛠️ Tech Stack
+
+- Python 🐍
+- TensorFlow / Keras 📚
+- OpenCV 📷 (for image processing)
+- Streamlit / Flask (for app deployment)
+- Jupyter Notebook
 
 ---
 
-## 📂 Project Structure
-```bash
-Plant-Leaf-Disease-Detection/
-├── datasets/           # Image datasets (Train/Test)
-├── model/              # Saved model files
-├── scripts/            # Training and prediction scripts
-│   ├── train.py
-│   ├── predict.py
-├── app.py              # Web application (Flask app)
-├── requirements.txt    # Python dependencies
-├── README.md           # Project documentation
-└── .gitignore
+## 🧠 How to Run
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/your-username/Plant-Leaf-Disease-Detection.git
+   cd Plant-Leaf-Disease-Detection
 
